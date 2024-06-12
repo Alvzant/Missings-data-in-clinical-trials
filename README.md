@@ -13,26 +13,4 @@ In this study, four main methods for handling missing data were implemented and 
 
 These methods were evaluated using a Random Forest model, and the performance was compared based on Root Mean Square Error (RMSE).
 
-*Code Explanation* ->
-The code is structured to perform the following tasks:
 
-Data Preprocessing:
-
-Loading the dataset.
-Performing initial data cleaning and transformation.
-Visualizing missing data patterns.
-Missing Data Handling:
-
-Implementing row deletion.
-Applying simple imputation with the median.
-Using a preliminary Random Forest model to predict and impute missing values.
-Applying multiple imputation using IterativeImputer.
-Model Training and Evaluation:
-
-Separating features and target variable.
-Training a Random Forest model for each imputation method.
-Evaluating the model using cross-validation and calculating RMSE.
-Visualization:
-
-Creating bar plots to compare RMSE of different imputation methods.
-Generating a heatmap to show correlations between CD4 counts and other variables.
