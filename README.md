@@ -11,6 +11,6 @@ In this study, four main methods for handling missing data were implemented and 
 
 - Multiple Imputation (Imputación Múltiple): Using IterativeImputer for multiple imputation.
 
-These methods were evaluated using a Random Forest model, and the performance was compared based on Root Mean Square Error (RMSE).
+These methods were evaluated using PCA and Random Forest model, and the performance was compared based on Root Mean Square Error (RMSE).
 
 
